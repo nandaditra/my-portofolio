@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portofolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/de7705137f.js" crossorigin="anonymous"></script>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+           <section class="my-5 margin-section" id="home">
+               <div class="row text-center margin-section">
+                   <div class="col-md-5 col-sm-12 text-center" data-aos="fade-right">
+                      <img class="rounded-circle"src="img/foto-profil.png" width="70%">
+                   </div>
+                   <div class="col-md-7 col-sm-12 home-margin" data-aos="fade-down">
+                      <h1 class="home-title">Hello, I'm Nanda Aditya Putra</h1>
+                        <p>Nickname ~ Nanda ~</p>
+                        <ul>
+                            <a class="p-2 text-white" href="https://www.linkedin.com/in/nanda-aditya-putra-b16473200/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                            <a class="p-2 text-white" href="https://wa.me/628232921278"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+                            <a class="p-2 text-white" href="https://www.instagram.com/nandaditra/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                        </ul>
+                        <hr>
+                    </div> 
+               </div>
+          </section>
+
+          <section class="my-5 pt-5 margin-section" id="about">
+             <h1 class="text-center">#About Me</h1>
+             <div class="row mx-5 my-5 about-write">
+                <div class="col-md-6 col-sm-12"  data-aos="fade-down-right">
+                    <img class="w-100 my-4"src="img/mern-stack.png" alt="mern-stack.png">
+                </div>
+                <div class="col-md-6 col-sm-12" data-aos="fade-down-left">
+                    <p class="my-5 fss-4">I am a Computer Science student in University Brawijaya. I'm very interest on Web and Mobile development techology. 
+                        After that, I'm learning progamming languages like Kotlin, Go, PHP, Javascript and Python. Although always about technology, I also doing my activites like play guitar, workout and make content.
+                       
+                    </p>
+                </div>
+             </div>
+          </section>
+
+          <section class="my-5 pt-5 margin-section" id="experience">
+                <h1 class="text-center">#Experience</h1>
+                
+                <div class="row mx-5 margin-section text">
+                    <div class="col-md-6 col-sm-12 fs-5" data-aos="fade-right">
+                        <h3><i class="fa-solid fa-circle-dot"></i> Fullstack Developer</h3>
+                        <p>Investree, April-Mei 2022</p>
+                        <ul>
+                            <li>Build the Website with Laravel and PHP</li>
+                            <li>Designing login system project interface using Laravel UI</li>
+                            <li>Building a REST API using Laravel Passport JWT Authentication</li>
+                            <li>Creating a Website with the CRUD system</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-12  fs-5" data-aos="fade-left">
+                        <h3><i class="fa-solid fa-circle-dot"></i> Fullstack Development</h3>
+                        <p>BTPN Syariah, September-Oktober 2022</p>
+                        <ul>
+                            <li>Build API using Go, Gin-Gonic framework and Gorm</li>
+                            <li>Create Authentication and Validator using JWT Go and Go Validator</li>
+                            <li>Make Project with CRUD System using API</li>
+                            <li>Build database system in API using MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+          </section>
+
+          <section class="margin-section text-center" id="portofolio">
+                 <h1 class="my-5">Portofolio</h1>
+
+                 <div class="row">
+                    <div class="col-md-4 col-sm-6" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
+                        <h3>Travel Tour</h3>
+                        <img class="w-100 rounded"src="img/travel-tour.png" alt="">
+                        <button class="btn btn-light m-3 " type="button" ><a class="text-decoration-none text-dark"href="https://traveltourid.netlify.app/">Visit</a></button>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
+                        <h3>MealCook</h3>
+                        <img class="w-100 rounded" src="img/mealcook.png" alt="">
+                        <button class="btn btn-light m-3 " type="button"><a class="text-decoration-none text-dark"href="https://mealcook-frontend.vercel.app/">Visit</a></button>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
+                        <h3>NugasEz</h3>
+                        <img class="w-100 rounded" src="img/nugasEz.png" alt="">
+                        <button class="btn btn-light m-3 " type="button" ><a class="text-decoration-none text-dark"href="https://nandaditra.github.io/nugasez/">Visit</a></button>
+                    </div>
+                 </div>
+          </section>
+        </main>
+
+        <footer>
+            💓Created by nandaditra or hackntra -2022
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather&family=Open+Sans:wght@500;700;800&family=Roboto:wght@300;700&display=swap');
+
+
+body {
+    background-color: #16213E;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    font-size: 23px;
+    font-weight: 300;
+    margin:auto;
+    display: inline-block;
+}
+
+nav ul {
+    margin: auto;
+}
+
+nav li {
+    float: left;
+    padding:10px 20px;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color:#fff;
+    font-weight: bold;
+}
+
+.fa-2x {
+    transition: width 1s height 1s;
+}
+
+.fa-2x:hover {
+    width: 4.5%;
+    height: 4.5%;
+}
+
+.fss-4 {
+    font-size: 25px;
+}
+
+.rounded-circle {
+    border: 5px solid #fff;
+}
+
+.home-title {
+    font-size: 80px;
+}
+
+.margin-section {
+    margin-top:8%;
+}
+
+.about-write {
+    text-align: justify;
+}
+
+footer {
+    padding:39px;
+    text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    .rounded-circle {
+        width: 60%;
+    }
+
+    .home-title {
+        font-size: 50px;
+    }
+
+    .fss-4 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size:21px;
+    }
+
+    p, li, footer {
+        font-size:15px;
+    }
+
+    nav {
+        font-size: 15px;
+    }
+
+  }
